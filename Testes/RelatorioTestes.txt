@@ -148,3 +148,7 @@ if (respostaPrisioneiroB == "Culpado") {
     } else {
              if (respostaPrisioneiroB == "Culpado") {
     ------->     return PENA_CONDENACAO_CUMPLICES;
+/////////
+apos rodar o teste denovo tive o mesmo erro agora com 11 no lugar do 10
+por tanto mudei o valor da variavel PENA_CONDENACAO_CUMPLICES para 1 conforme pede o algoritmo.
+   private int PENA_CONDENACAO_CUMPLICES = 1;
