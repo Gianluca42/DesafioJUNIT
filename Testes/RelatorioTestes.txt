@@ -27,3 +27,10 @@ JulgamentoPrisioneiro julgamento = new JulgamentoPrisioneiro();
 Após Adicionar a classe de julgamento percebi que ele avisa que a um erro
 dentro da funçao calculaPena da classe JulgamentoPrisioneiro
 ele nao esta achando o tipo Resposta, pois esse tipo nao existe no codigo.
+
+////////////////
+
+public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB) {
+
+
+Precisei alterar o tipo Resposta para o tipo String conforme era pedido no Algoritmo base
