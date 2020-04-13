@@ -195,3 +195,6 @@ java.lang.AssertionError: expected:<0> but was:<13>
 Tive que alterar o valor da variavel PENA_INOCENCIA para 0
 private int PENA_INOCENCIA = 0;
 para nao divergir do Algoritmo
+
+///////
+todos os metodos estao retornando positivo;
