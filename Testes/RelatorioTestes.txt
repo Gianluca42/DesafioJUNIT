@@ -34,3 +34,12 @@ public int calculaPena(String respostaPrisioneiroA, String respostaPrisioneiroB)
 
 
 Precisei alterar o tipo Resposta para o tipo String conforme era pedido no Algoritmo base
+////////////////
+if (respostaPrisioneiroA == "Culpado") {
+      if (respostaPrisioneiroB == "Culpado") {
+
+      
+precisei alterar o tipo de condição pois estav usando um enum e verificando DELACAO,
+no algoritmo ele pede para verificar a String "Culpado"
+
+////////
