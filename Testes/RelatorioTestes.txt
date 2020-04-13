@@ -138,3 +138,13 @@ novo metodo criado para testar.
 ///////
 apos teste tive a nova falha
 java.lang.AssertionError: expected:<1> but was:<10>
+//////
+para arrumar o erro mudei essa linha
+if (respostaPrisioneiroB == "Culpado") {
+         return PENA_CONDENACAO_MUTUA;
+       } else {
+              return PENA_CONDENACAO_INDIVIDUAL;
+              }
+    } else {
+             if (respostaPrisioneiroB == "Culpado") {
+    ------->     return PENA_CONDENACAO_CUMPLICES;
