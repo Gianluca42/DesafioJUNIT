@@ -174,3 +174,8 @@ por tanto mudei o valor da variavel PENA_CONDENACAO_CUMPLICES para 1 conforme pe
 	}
 
 novo metodo criado para testar PENA_INOCENCIA
+
+
+//////////
+resultado do teste
+java.lang.AssertionError: expected:<0> but was:<1>
