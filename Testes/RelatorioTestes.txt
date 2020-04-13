@@ -1,1 +1,19 @@
 Arquivo de Relatorio criado
+Criei essa Junit com o primeiro teste
+public class JUNITTestNAC {
+
+	@Test
+	public void testCalculaPenaIndividual() {
+
+
+
+
+		
+		String respA = "Culpado";
+		String respB = "Inocente";
+		int resultadoEsperado = 10;
+
+
+	}
+
+}
