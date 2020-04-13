@@ -8,7 +8,7 @@ public class JUNITTestNAC {
 
 
 
-		
+
 		String respA = "Culpado";
 		String respB = "Inocente";
 		int resultadoEsperado = 10;
@@ -17,3 +17,13 @@ public class JUNITTestNAC {
 	}
 
 }
+
+///////////////
+
+JulgamentoPrisioneiro julgamento = new JulgamentoPrisioneiro();
+  int resultadoReal = julgamento.calculaPena(respA, respB);
+
+
+Após Adicionar a classe de julgamento percebi que ele avisa que a um erro
+dentro da funçao calculaPena da classe JulgamentoPrisioneiro
+ele nao esta achando o tipo Resposta, pois esse tipo nao existe no codigo.
