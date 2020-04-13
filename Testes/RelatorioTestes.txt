@@ -95,7 +95,7 @@ public void testCalculaPenaMutua() {
 
 
 
-		
+
 
 		String respA = "Culpado";
 		String respB = "Culpado";
@@ -108,3 +108,6 @@ public void testCalculaPenaMutua() {
 
 	}
   criado novo metodo para teste agora verificando a pena mutua
+//////////////
+testando denovo temos ess resultado
+java.lang.AssertionError: expected:<5> but was:<15>
