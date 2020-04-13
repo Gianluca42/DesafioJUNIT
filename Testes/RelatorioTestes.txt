@@ -89,3 +89,22 @@ if (respostaPrisioneiroA == "Culpado") {
     ------>         return PENA_CONDENACAO_INDIVIDUAL;
                  }
        } else {
+
+///////////////////
+public void testCalculaPenaMutua() {
+
+
+
+		
+
+		String respA = "Culpado";
+		String respB = "Culpado";
+		int resultadoEsperado = 5;
+		JulgamentoPrisioneiro julgamento = new JulgamentoPrisioneiro();
+		int resultadoReal = julgamento.calculaPena(respA, respB);
+		assertEquals(resultadoEsperado, resultadoReal);
+
+
+
+	}
+  criado novo metodo para teste agora verificando a pena mutua
