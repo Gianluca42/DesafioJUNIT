@@ -152,3 +152,25 @@ if (respostaPrisioneiroB == "Culpado") {
 apos rodar o teste denovo tive o mesmo erro agora com 11 no lugar do 10
 por tanto mudei o valor da variavel PENA_CONDENACAO_CUMPLICES para 1 conforme pede o algoritmo.
    private int PENA_CONDENACAO_CUMPLICES = 1;
+
+
+
+   ///////////////
+   public void testCalculaPenaInocencia() {
+
+
+
+
+
+		String respA = "Inocente";
+		String respB = "Inocente";
+		int resultadoEsperado = 0;
+		JulgamentoPrisioneiro julgamento = new JulgamentoPrisioneiro();
+		int resultadoReal = julgamento.calculaPena(respA, respB);
+		assertEquals(resultadoEsperado, resultadoReal);
+
+
+
+	}
+
+novo metodo criado para testar PENA_INOCENCIA
