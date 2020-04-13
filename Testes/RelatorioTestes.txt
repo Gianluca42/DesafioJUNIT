@@ -179,3 +179,12 @@ novo metodo criado para testar PENA_INOCENCIA
 //////////
 resultado do teste
 java.lang.AssertionError: expected:<0> but was:<1>
+
+////////
+tive que mudar esta linha para continuar seguindo o escopo
+if (respostaPrisioneiroB == "Culpado") {
+                   return PENA_CONDENACAO_CUMPLICES;
+               } else {
+                ------>   return PENA_INOCENCIA;
+                       }
+               }
