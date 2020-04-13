@@ -38,8 +38,42 @@ Precisei alterar o tipo Resposta para o tipo String conforme era pedido no Algor
 if (respostaPrisioneiroA == "Culpado") {
       if (respostaPrisioneiroB == "Culpado") {
 
-      
+
 precisei alterar o tipo de condição pois estav usando um enum e verificando DELACAO,
 no algoritmo ele pede para verificar a String "Culpado"
 
 ////////
+ esqueci de jmudar a outra linha com o tipo errado
+ if (respostaPrisioneiroA == "Culpado") {
+        if (respostaPrisioneiroB == "Culpado") {
+          return PENA_CONDENACAO_MUTUA;
+        } else {
+               return PENA_INOCENCIA;
+               }
+     } else {
+              if (respostaPrisioneiroB == "Culpado") {
+                  return PENA_CONDENACAO_INDIVIDUAL;
+              } else {
+                       return PENA_CONDENACAO_CUMPLICES;
+                      }
+              }
+   }
+
+
+agora posso rodar o primeiro teste.
+public void testCalculaPenaIndividual() {
+
+
+
+
+
+		String respA = "Culpado";
+		String respB = "Inocente";
+		int resultadoEsperado = 10;
+		JulgamentoPrisioneiro julgamento = new JulgamentoPrisioneiro();
+		int resultadoReal = julgamento.calculaPena(respA, respB);
+		assertEquals(resultadoEsperado, resultadoReal);
+
+	}
+esse foi o resultado:
+  java.lang.AssertionError: expected:<10> but was:<13>
