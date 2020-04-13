@@ -77,3 +77,15 @@ public void testCalculaPenaIndividual() {
 	}
 esse foi o resultado:
   java.lang.AssertionError: expected:<10> but was:<13>
+
+
+
+//////////////////////////
+para seguir o algoritmo base mudei o retorno
+if (respostaPrisioneiroA == "Culpado") {
+          if (respostaPrisioneiroB == "Culpado") {
+            return PENA_CONDENACAO_MUTUA;
+          } else {
+    ------>         return PENA_CONDENACAO_INDIVIDUAL;
+                 }
+       } else {
