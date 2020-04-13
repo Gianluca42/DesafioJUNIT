@@ -135,3 +135,6 @@ public void testCalculaPenaCumplice() {
 
 	}
 novo metodo criado para testar.
+///////
+apos teste tive a nova falha
+java.lang.AssertionError: expected:<1> but was:<10>
