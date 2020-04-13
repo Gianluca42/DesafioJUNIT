@@ -188,3 +188,6 @@ if (respostaPrisioneiroB == "Culpado") {
                 ------>   return PENA_INOCENCIA;
                        }
                }
+//////
+resultado do teste:
+java.lang.AssertionError: expected:<0> but was:<13>
